@@ -76,3 +76,28 @@
 .image1 {
     margin-right: 5rem;
 }
+
+.section3 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    background: url("../images/building.png") lightgray 50% / cover no-repeat;
+    height: 100vh;
+    padding: 20px;
+}
+
+.section3-content, .section4-content {
+    width: 25rem;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 25px;
+    background-color: #232323;
+    opacity: 0.9;
+    padding: 10px;
+}
+
+.section3-content {
+    margin-left: 8rem;
+}
