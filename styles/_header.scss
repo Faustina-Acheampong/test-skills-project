@@ -61,36 +61,38 @@ header {
                 box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
             }
         }
-        button {
-            padding: 10px 20px;
-            background-color: #5474FD;
-            stroke-width: 2px;
-            stroke: #FFF;
-            padding: 10px;
-            border: none;
-            border-radius: 0 5px 5px 0;
-            color: $primary-color;
-            text-align: center;
-            font-family: "Aleo";
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 26px; /* 185.714% */
-            letter-spacing: 1.4px;
-            cursor: pointer;
-            &:hover {
-                background-color: #072ac8;
-                color: $primary-color;
-                transition: 0.5s;
-                border-radius: 10px;
-                border: 2px solid $primary-color; 
-            i {
-                margin-left: 10px;
-            }
+       
+}  
+} 
+
+button {
+    padding: 10px 20px;
+    background-color: #5474FD;
+    stroke-width: 2px;
+    stroke: #FFF;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: $primary-color;
+    text-align: center;
+    font-family: "Aleo";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 1.4px;
+    cursor: pointer;
+    &:hover {
+        background-color: #072ac8;
+        color: $primary-color;
+        transition: 0.5s;
+        border-radius: 10px;
+        border: 2px solid $primary-color; 
+    i {
+        margin-left: 10px;
         }
     }
-}  
-}  
+}
         
 
 .scroll {
