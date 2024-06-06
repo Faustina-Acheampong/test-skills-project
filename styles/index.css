@@ -69,7 +69,7 @@ header {
 .form-container .search-form .input-space {
   flex: 1;
   padding: 10px 10px;
-  font-size: 16px;
+  font-size: 14px;
   outline: none;
 }
 .form-container .search-form .input-space:focus {
@@ -127,4 +127,45 @@ header {
   transform: scale(1.5);
   border-radius: 10px;
   border: 2px solid #FFF;
+}
+
+.nav-menu {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #5474FD;
+  height: 15%;
+}
+.nav-menu .nav-logo {
+  color: #FFF;
+  font-family: "Josefin Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: 2.4px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.navbar ul li a {
+  padding: 15px;
+  color: #FFF;
+  font-family: "Aleo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar li a:hover {
+  background-color: #072ac8;
+  color: #FFF;
 }
