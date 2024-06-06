@@ -14,7 +14,6 @@
     padding: 10px;
     margin-left: 8rem;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -24,7 +23,7 @@
 .section1-content h2 {
     padding-top: 10rem;
     margin-bottom: 2rem;
-    color: #FFF;
+    color: $primary-color;
     font-family: "Aleo";
     font-size: 36px;
     font-style: normal;
@@ -34,7 +33,7 @@
 
 .content {
     color: #E8E8E8;
-    font-family: "Josefin Sans";
+    font-family: $font-family;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
