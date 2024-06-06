@@ -1,0 +1,118 @@
+header {
+    height: 100vh;
+}
+
+.header-container {
+    background: url("../images/hills.png") lightgray 50%/cover no-repeat;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    color: $primary-color;
+    text-align: center;
+    font-family: $font-family ;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px; /* 54.167% */
+    letter-spacing: 4.8px;
+    text-decoration: none;   
+} 
+
+.tagline {
+    color: $primary-color;
+    text-align: center;
+    font-family: $font-family;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 118.182% */
+    letter-spacing: 6.82px;
+    padding-top: 5px; 
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    background-color: $primary-color;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    .search-form {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        max-width: 30rem;
+        .input-space {
+            flex: 1;
+            padding: 10px 10px;
+            font-size: 16px;
+            outline: none;
+            &:focus {
+                border-color: #007bff; 
+                box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+            }
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #5474FD;
+            stroke-width: 2px;
+            stroke: #FFF;
+            padding: 10px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            color: $primary-color;
+            text-align: center;
+            font-family: "Aleo";
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 26px; /* 185.714% */
+            letter-spacing: 1.4px;
+            cursor: pointer;
+            &:hover {
+                background-color: #072ac8;
+                color: $primary-color;
+                transition: 0.5s;
+                border-radius: 10px;
+                border: 2px solid $primary-color; 
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}  
+}  
+        
+
+.scroll {
+    text-align: center;
+    font-family: $font-family;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 185.714% */
+    letter-spacing: 2.8px;
+    text-decoration: none;
+}
+
+.scroll-icon  {
+    color: $primary-color;
+    cursor: pointer;  
+}
+
+.scroll-icon:hover {
+    color: $primary-color;
+    transition: 0.5s;
+    transform: scale(1.5);
+    border-radius: 10px;
+    border: 2px solid $primary-color;
+}

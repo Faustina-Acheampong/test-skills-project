@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  flex-shrink: 0;
+  position: relative;
+  color: #FFF;
+}
+
+header {
+  height: 100vh;
+}
+
+.header-container {
+  background: url("../images/hills.png") lightgray 50%/cover no-repeat;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 54.167% */
+  letter-spacing: 4.8px;
+  text-decoration: none;
+}
+
+.tagline {
+  color: #FFF;
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 118.182% */
+  letter-spacing: 6.82px;
+  padding-top: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  background-color: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.form-container .search-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 30rem;
+}
+.form-container .search-form .input-space {
+  flex: 1;
+  padding: 10px 10px;
+  font-size: 16px;
+  outline: none;
+}
+.form-container .search-form .input-space:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+.form-container .search-form button {
+  padding: 10px 20px;
+  background-color: #5474FD;
+  stroke-width: 2px;
+  stroke: #FFF;
+  padding: 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  color: #FFF;
+  text-align: center;
+  font-family: "Aleo";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 1.4px;
+  cursor: pointer;
+}
+.form-container .search-form button:hover {
+  background-color: #072ac8;
+  color: #FFF;
+  transition: 0.5s;
+  border-radius: 10px;
+  border: 2px solid #FFF;
+}
+.form-container .search-form button:hover i {
+  margin-left: 10px;
+}
+
+.scroll {
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2.8px;
+  text-decoration: none;
+}
+
+.scroll-icon {
+  color: #FFF;
+  cursor: pointer;
+}
+
+.scroll-icon:hover {
+  color: #FFF;
+  transition: 0.5s;
+  transform: scale(1.5);
+  border-radius: 10px;
+  border: 2px solid #FFF;
+}
