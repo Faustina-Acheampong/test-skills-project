@@ -670,20 +670,22 @@ footer .footer-content ul li a {
   flex-direction: column;
   align-items: center;
   background: #333333;
+  height: 50vh;
 }
 .section2 .vector-container .vector-1 {
-  color: white;
   stroke-width: 1px;
   stroke: #FFF;
   opacity: 0.5;
-  margin-bottom: 20px;
+  padding-top: 30px;
 }
 .section2 .vector-container .vector-1 svg {
   display: block;
 }
 .section2 .vector-container .vectors {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 777px;
   align-items: center;
   gap: 20px;
 }
@@ -700,4 +702,32 @@ footer .footer-content ul li a {
 .section2 .vector-container .vector-4 img {
   display: block;
   margin-bottom: 10px;
+}
+@media screen and (max-width: 1000px) {
+  .section2 .vector-container .vectors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .section2 .vector-container .vectors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .section2 .vector-container .vectors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .section2 .vector-container .vectors {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 }

@@ -3,13 +3,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #333333;  
+    background: #333333; 
+    height: 50vh; 
 
     .vector-1 {
       stroke-width: 1px;
       stroke: #FFF;
       opacity: 0.5;
-      margin-bottom: 20px; 
+      padding-top: 30px; 
 
       svg {
         display: block;
@@ -18,7 +19,9 @@
 
     .vectors {
       display: flex;
-      justify-content: center;
+      justify-content: space-between;
+      width: 100%; 
+      max-width: 777px;  
       align-items: center;
       gap: 20px; 
     }
@@ -34,6 +37,46 @@
       img {
         display: block;
         margin-bottom: 10px; 
+      }
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .vector-container {
+      .vectors {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 900px) {
+    .vector-container {
+      .vectors {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 800px) {
+    .vector-container {
+      .vectors {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 900px) {
+    .vector-container {
+      .vectors {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
       }
     }
   }
