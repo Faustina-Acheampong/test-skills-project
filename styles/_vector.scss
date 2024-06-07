@@ -1,21 +1,37 @@
 .section2 {
+  .vector-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-}
-
-.vector-container {
-    display: flex;
-    justify-content: space-around; 
     align-items: center;
-    background: #333333;  
+
     .vector-1 {
-      margin-bottom: 20px;
+      margin-bottom: 20px; 
+
+      svg {
+        display: block;
+      }
     }
+
     .vector-2,
     .vector-3,
     .vector-4 {
-      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 20px; 
+      text-align: center;
+
+      img {
+        display: block;
+        margin-bottom: 10px; 
+      }
+    }
+
+    .vectors {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap; /* Allow wrapping on smaller screens*/
     }
   }
+}
