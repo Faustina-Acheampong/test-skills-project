@@ -669,12 +669,23 @@ footer .footer-content ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: #333333;
 }
 .section2 .vector-container .vector-1 {
+  color: white;
+  stroke-width: 1px;
+  stroke: #FFF;
+  opacity: 0.5;
   margin-bottom: 20px;
 }
 .section2 .vector-container .vector-1 svg {
   display: block;
+}
+.section2 .vector-container .vectors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 .section2 .vector-container .vector-2,
 .section2 .vector-container .vector-3,
@@ -682,7 +693,6 @@ footer .footer-content ul li a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 20px;
   text-align: center;
 }
 .section2 .vector-container .vector-2 img,
@@ -690,10 +700,4 @@ footer .footer-content ul li a {
 .section2 .vector-container .vector-4 img {
   display: block;
   margin-bottom: 10px;
-}
-.section2 .vector-container .vectors {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap; /* Allow wrapping on smaller screens*/
 }
