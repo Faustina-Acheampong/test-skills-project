@@ -13,6 +13,22 @@ body {
 
 header {
   height: 100vh;
+  /*Adjust height for smaller screens*/
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  header {
+    height: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  header {
+    height: auto;
+  }
+}
+@media screen and (max-width: 800px) {
+  header {
+    height: auto;
+  }
 }
 
 .header-container {
@@ -22,6 +38,25 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  /*Adjust height for smaller screens*/
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .header-container {
+    height: auto;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .header-container {
+    height: auto;
+    padding: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-container {
+    height: auto;
+    padding: 20px;
+  }
 }
 
 .logo {
@@ -130,6 +165,7 @@ button:hover i {
   border: 2px solid #FFF;
 }
 
+/*Responsive media queries*/
 .nav-menu {
   box-sizing: border-box;
   display: flex;
