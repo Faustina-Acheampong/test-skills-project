@@ -70,6 +70,24 @@ header {
   letter-spacing: 4.8px;
   text-decoration: none;
 }
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .logo {
+    font-size: 32px;
+    letter-spacing: 3.6px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .logo {
+    font-size: 32px;
+    letter-spacing: 3.6px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .logo {
+    font-size: 32px;
+    letter-spacing: 3.6px;
+  }
+}
 
 .tagline {
   color: #FFF;
@@ -81,6 +99,25 @@ header {
   line-height: 26px; /* 118.182% */
   letter-spacing: 6.82px;
   padding-top: 5px;
+  /*Ajust font size for smaller screens*/
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .tagline {
+    font-size: 18px;
+    letter-spacing: 5.5px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tagline {
+    font-size: 18px;
+    letter-spacing: 5.5px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .tagline {
+    font-size: 18px;
+    letter-spacing: 5.5px;
+  }
 }
 
 .form-container {
@@ -110,6 +147,45 @@ header {
 .form-container .search-form .input-space:focus {
   border-color: #007bff;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+  .form-container .search-form {
+    flex-direction: column;
+  }
+  .form-container .search-form .input-space,
+  .form-container .search-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .form-container .search-form button {
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .form-container .search-form {
+    flex-direction: column;
+  }
+  .form-container .search-form .input-space,
+  .form-container .search-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .form-container .search-form button {
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .form-container .search-form {
+    flex-direction: column;
+  }
+  .form-container .search-form .input-space,
+  .form-container .search-form button {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .form-container .search-form button {
+    border-radius: 5px;
+  }
 }
 
 button {
@@ -165,7 +241,6 @@ button:hover i {
   border: 2px solid #FFF;
 }
 
-/*Responsive media queries*/
 .nav-menu {
   box-sizing: border-box;
   display: flex;

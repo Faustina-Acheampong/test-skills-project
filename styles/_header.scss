@@ -48,6 +48,21 @@ header {
     line-height: 26px; /* 54.167% */
     letter-spacing: 4.8px;
     text-decoration: none;   
+
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+        font-size: 32px; 
+        letter-spacing: 3.6px;
+      }
+    
+      @media screen and (max-width: 1000px) {
+        font-size: 32px; 
+        letter-spacing: 3.6px;
+      }
+    
+      @media screen and (max-width: 800px) {
+        font-size: 32px; 
+        letter-spacing: 3.6px;
+      }
 } 
 
 .tagline {
@@ -60,6 +75,21 @@ header {
     line-height: 26px; /* 118.182% */
     letter-spacing: 6.82px;
     padding-top: 5px; 
+/*Ajust font size for smaller screens*/
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+        font-size: 18px; 
+        letter-spacing: 5.5px;
+      }
+    
+      @media screen and (max-width: 1000px) {
+        font-size: 18px; 
+        letter-spacing: 5.5px;
+      }
+    
+      @media screen and (max-width: 800px) {
+        font-size: 18px;
+        letter-spacing: 5.5px;
+      }
 }
 
 .form-container {
@@ -89,8 +119,55 @@ header {
             }
         }
     }   
-  
-} 
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+        .search-form {
+          flex-direction: column;
+    
+          .input-space,
+          button {
+            width: 100%;
+            margin: 5px 0;
+          }
+    
+          button {
+            border-radius: 5px;
+          }
+        }
+      }
+    
+      @media screen and (max-width: 1000px) {
+        .search-form {
+          flex-direction: column;
+    
+          .input-space,
+          button {
+            width: 100%;
+            margin: 5px 0;
+          }
+    
+          button {
+            border-radius: 5px;
+          }
+        }
+      }
+    
+      @media screen and (max-width: 800px) {
+        .search-form {
+          flex-direction: column;
+    
+          .input-space,
+          button {
+            width: 100%;
+            margin: 5px 0;
+          }
+    
+          button {
+            border-radius: 5px;
+          }
+        }
+      }
+    }
+ 
 
 button {
     padding: 10px 20px;
@@ -146,4 +223,3 @@ button {
     border: 2px solid $primary-color;
 }
 
-/*Responsive media queries*/
