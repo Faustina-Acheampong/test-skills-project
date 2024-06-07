@@ -52,5 +52,47 @@ footer {
             }
         }
     }
-}
 
+    @media screen and (min-width: 320px) and (max-width: 900px) {
+        @media screen and (max-width: 1000px) {
+            @media screen and (max-width: 800px) {
+                .footer-container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+
+                .footer-logo {
+                    padding-top: 2rem;
+                    margin-bottom: 8px;
+
+                    a {
+                        font-size: 20px;
+                        letter-spacing: 2.8px;
+                    }
+
+                    .tagline {
+                        font-size: 14px;
+                        letter-spacing: 1.2px;
+                    }
+                }
+
+                .footer-content {
+                    ul {
+                        flex-direction: column;
+                        align-items: center;
+
+                        li {
+                            margin: 5px 0;
+
+                            a {
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+  
+   
